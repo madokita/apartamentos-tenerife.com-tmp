@@ -1,0 +1,1825 @@
+/*
+Theme Name: Apartamentos Tenerife
+Theme URI: apartamentos-tenerife.com
+Description: Apartamentos Tenerife
+Template: mirai
+Author: Mirai Espana
+*/
+
+
+/*---------------------------- GENERIC STYLES -------------------------------*/
+h1, .rooms-listing-wrapper h2, .offers-listing-wrapper h2 {
+	color:#000 !important;
+	font-family: Oxygen;
+	font-size: 32px !important;
+	font-weight: normal !important;
+	margin-bottom:20px;
+	padding: 40px 0 0 !important;
+	text-align: center !important;
+	text-transform: uppercase !important;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: Oxygen;
+	text-transform: uppercase;
+}
+h3 {
+	font-size: 19px;
+	line-height: normal;
+}
+.galery-room h3 {
+	margin: 10px 0 0 0;
+}
+h4 {font-size: ;}
+
+h2, h3, h4, h5 {
+	color: #000;
+	text-shadow: none;
+}
+
+body {
+	color: #666;
+	font-family: Oxygen, Karla, Quattrocento Sans, Cantarell;
+	font-size:16px;
+	line-height:1.4;
+}
+
+#header {}
+#header .content {position: relative;}
+
+#main {}
+#main .content {
+	position: relative;
+}
+
+#footer {
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.8);
+}
+#footer .content {
+	padding: 15px 0;
+}
+.footerLogo{
+	background:url('/files/footer-logo.png') no-repeat;
+	background-size:90%;
+	border-right:solid 1px #ccc;
+	height:69px;
+	margin-right: 10px;
+	padding-right:10px;
+}
+
+p {margin: 0 0 10px !important;}
+
+.pdd1 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.align-center {}
+
+.offers-listing-wrapper, .offers-detail-wrapper {
+	padding: 0 20px !important;
+}
+
+/*------------------------------------------------------------------------------*/
+
+
+/*------------------------------------ BLOCK ------------------------------------*/
+
+.pdd1 {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.pdd2 {
+	padding-bottom:100px;
+}
+
+.mrg1 {
+	margin-top:140px !important;
+}
+.mrg2 {
+	margin-bottom:40px !important;
+}
+/*------------------------------------------------------------------------------*/
+
+
+/*------------------------------------ LOGO ------------------------------------*/
+
+#logo {
+	left: 0;
+	position: absolute;
+	text-align: center;
+}
+/*------------------------------------------------------------------------------*/
+
+
+/*--------------------------------- QTRANSLATE ---------------------------------*/
+.widget_qtranslate {
+  float: right;
+  margin: 10px 0 0;
+  text-align: right;
+}
+.widget_qtranslate h3 {}
+.widget_qtranslate ul {}
+.widget_qtranslate ul li {}
+.widget_qtranslate ul li:first-child {}
+.widget_qtranslate ul li a {}
+.widget_qtranslate ul li a:hover {}
+.widget_qtranslate ul li.active a {}
+.widget_qtranslate ul li.active a:hover {}
+
+.widget_qtranslate select {
+	width: 100px;
+}
+
+.widget_qtranslate select option {
+	padding: 6px 10px !important;
+}
+
+/*------------------------------------------------------------------------------*/
+
+
+/*-------------------------------- MENU-NAV-WEB --------------------------------*/
+ul#menu_web {
+	 background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+	border-radius: 0;
+}
+ul#menu_web li {
+	display: inline-block;
+	text-transform: uppercase;
+}
+ul#menu_web li a {
+	color: #4A7899;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 15px 0 15px 12px;
+}
+
+ul#menu_web > li ul.sub-menu {
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align:center;
+	width: 168px;
+}
+.bookingstep1 ul#menu_web > li ul.sub-menu {
+	width: 100%;
+}
+
+
+ul#menu_web > li a:hover,
+ul#menu_web > li.current-menu-item > a,
+ul#menu_web > li.current-menu-parent > a,
+ul#menu_web > li ul.sub-menu li.current-menu-item a {
+	color: #000;
+	text-decoration: none;
+}
+
+ul#menu_web > li.current-menu-item:after, ul#menu_web > li:hover:after {
+	border-color: #000 transparent;
+	border-image: none;
+	border-style: solid;
+	border-width: 0 11px 8px;
+	bottom: -1px;
+	content: "";
+	left: 45%;
+	position: absolute;
+}
+
+ul#menu_web #menu-item-20.current-menu-item:after {left: 12%;}
+
+.cat-offer-detail #logo {
+	background: rgb(255,255,255);
+	background: rgba(255,255,255, 0.8);
+}
+/*------------------------------------------------------------------------------*/
+
+
+/*-------------------------------  GOOGLE MAPS ---------------------------------*/
+.mapa {}
+.mapa .external-link {
+	display: block;
+	text-align: right;
+	text-transform: uppercase;
+}
+.mapa .map_canvas {
+	width: 100% !important;
+}
+.mapa .map_canvas img {}
+.mapa .map_canvas p {margin: 0 !important;}
+.mapa .formRuta {
+	margin: 20px 0;
+	text-align: center;
+}
+.mapa .formRuta label {}
+.mapa .formRuta input.origen {
+	margin-bottom: 5px;
+	width: 95%;
+}
+.mapa .formRuta input.calculaRuta {
+	font-size: ;
+	margin: 5px;
+}
+.mapa .formRuta input.calculaRuta:hover {}
+.mapa .formRuta input.calculaRuta.disabled,
+.mapa .formRuta input.calculaRuta.disabled:hover {}
+
+.mapa .formRuta a.ocultaRuta {}
+.mapa .formRuta a.ocultaRuta:hover {}
+
+.mapa .alert,
+.adp-warnbox {
+	color: #000;
+	margin-top: 20px;
+}
+
+.mapa .alert button.close {}
+
+.mapa .ruta {width: 100% !important;}
+.mapa .ruta table {}
+.mapa .ruta table img {}
+/*------------------------------------------------------------------------------*/
+
+
+/*------------------------------  MOTOR MASHUP ---------------------------------*/
+.mirai_motor {}
+.mirai_motor h3 {} /* Contenido HTML antes del motor */
+/* campos selector hoteles */
+.mirai_motor #tituloMotorSelector {} /* Título selector */ 
+.mirai_motor #selectHotel {} /* Combo con listado de hoteles */
+.mirai_motor > label {} /* Radios con listado de hoteles */
+.mirai_motor > label input {} 
+
+.mirai_motor #mirai_bookentrance {}
+
+.mirai_motor #mirai_be1,
+.mirai_motor #mirai_be3,
+.mirai_motor #mirai_be5,
+.mirai_motor #mirai_be2,
+.mirai_motor #mirai_be4,
+.mirai_motor #mirai_be6,
+.mirai_motor #mirai_be7,
+.mirai_motor #mirai_be9,
+.mirai_motor #mirai_be10 {
+	float:left;
+	margin-right:5px !important;
+}
+.mirai_motor #mirai_be1,
+.mirai_motor #mirai_be3,
+.mirai_motor #mirai_be5,
+.mirai_motor #mirai_be8,
+.mirai_motor #mirai_be10 {
+	line-height:25px;
+	display:inline-block;
+}
+
+.mirai_motor #mirai_be2,
+.mirai_motor #mirai_be4,
+.mirai_motor #mirai_be6,
+.mirai_motor #mirai_be9,
+.mirai_motor #selectHotel {
+	height:25px;
+	border-radius: 0px;
+	width:10%;
+	color:#000;
+	cursor:auto;
+}
+
+.mirai_motor #mirai_be4 {	
+	width: 5% !important;
+}
+.mirai_motor #mirai_be5 {
+
+}
+.mirai_motor #mirai_be7 {
+	display:inline-block;
+}
+.mirai_motor #mirai_be7 input { 
+	width: auto;															   
+}
+.mirai_motor #mirai_be7 input:hover {}
+.mirai_motor #mirai_be8 {
+	text-decoration: none;
+}
+.mirai_motor #mirai_be8:hover {  
+	text-decoration:underline;
+}
+.mirai_motor #mirai_be9 {
+	width:auto;
+}
+.mirai_motor #mirai_be10 {display:none;}
+/* motor mashup square */
+.mirai_motor.square #mirai_be1,
+.mirai_motor.square #mirai_be3,
+.mirai_motor.square #mirai_be5,
+.mirai_motor.square #mirai_be2,
+.mirai_motor.square #mirai_be4,
+.mirai_motor.square #mirai_be6,
+.mirai_motor.square #mirai_be7,  
+.mirai_motor.square #mirai_be9 {	
+	margin:0px 0px 10px !important;	
+}
+.mirai_motor.square #mirai_be1,
+.mirai_motor.square #mirai_be3,
+.mirai_motor.square #mirai_be5 {
+	width:42%;
+}
+.mirai_motor.square #mirai_be2,
+.mirai_motor.square #mirai_be4,
+.mirai_motor.square #mirai_be6 {
+	width:57%;																					
+}
+.mirai_motor.square #mirai_be4 {
+	width:30% !important;
+}
+.mirai_motor.square #mirai_be5 {
+	font-size:12px;
+	line-height:13px;
+}
+.mirai_motor.square #mirai_be7 {
+	display:inline-block;
+	width:100% !important;
+	text-align:center;
+	margin-bottom:10px !important;
+}
+.mirai_motor.square #mirai_be8 {
+	display:inline-block;
+	text-align:center;
+	width:100%;
+	font-size:12px;
+}
+.mirai_motor.square #mirai_be9 {
+	width:100%;
+}
+/*------------------------------------------------------------------------------*/
+
+
+/*-------------------------  MOTOR MASHUP CALENDAR -----------------------------*/
+.ui-datepicker .ui-datepicker-header,
+.ui-datepicker .ui-datepicker-buttonpane button,
+.ui-datepicker td:hover a {
+	/*background-color: <color>*/;
+	/*color: <color> !important;*/
+}
+#ui-datepicker-div {
+	font-size: 14px !important; 
+}
+/*------------------------------------------------------------------------------*/
+
+
+/*------------------------------  NEW MOTOR MASHUP ---------------------------------*/
+/*propias del sitio*/
+.engine_mashup {
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.8);
+	font-size:14px;
+	margin-top: 0px;
+	padding-top: 140px;
+}
+.cat-offer-detail .engine_mashup {
+	padding-top: 175px;
+	margin-bottom: 50px;
+}
+.cat-offer-detail .engine_mashup > div {display: none;}
+.engine_mashup > div .text-before {
+	background: none repeat scroll 0 0 #000;
+	color: #ffffff;
+	font-size: 18px;
+	margin: 0 -17px 10px;
+	padding: 10px 0;
+	position: relative;
+	text-align: center;
+	width: 92%;
+}
+
+.engine_mashup > div .text-before:after{
+	border-color: #000 transparent transparent;
+	border-image: none;
+	border-style: solid;
+	 border-width: 16px 0 5px 16px;
+	top: 40px;
+	content: "";
+	position: absolute;
+	left: 0;
+}
+.engine_mashup > div .text-after {
+	color: #FFFFFF;
+	font-size: 12px;
+	margin: 0 auto 10px;
+	width: 92%;
+}
+.engine_mashup > div form {
+	padding: 4% 4% 4px !important;
+}
+.engine_mashup > div form legend {}
+.engine_mashup > div form .control-group label {}
+.engine_mashup > div form .control-group label.label-code {}
+.engine_mashup > div form .control-group span.help-inline {}
+.engine_mashup > div form .control-group span.legend a {}
+.engine_mashup > div form .control-group select,
+.engine_mashup > div form .control-group input[type=text] {}
+
+.engine_mashup > div form .button-group input[type="submit"], .mapa .formRuta input.calculaRuta, .bookingstep1 #motor_reservas #mirai_bookentrance #mirai_be7 input, .offers-detail-wrapper .offer-calendar-wrapper .offer-button {
+	background: none repeat scroll 0 0 #EF5353;
+	border: 0 none;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	color: #eee !important;
+	font-size: 13px !important;
+	margin-top: 5px;
+	padding: 11px;
+	text-shadow: none;
+	text-transform: uppercase;  
+}
+
+.engine_mashup > div form .button-group input[type="submit"] {
+	width: 100%;
+}
+
+.engine_mashup > div form .button-group input[type=submit]:hover, .mapa .formRuta input.calculaRuta:hover, .bookingstep1 #motor_reservas #mirai_bookentrance #mirai_be7 input:hover, .offers-detail-wrapper .offer-calendar-wrapper .offer-button:hover {
+	background: #F4A01D;
+	color: #fff !important;
+}
+
+.offers-detail-wrapper .offer-calendar-wrapper .offer-button[disabled="disabled"], .offers-detail-wrapper .offer-calendar-wrapper .offer-button[disabled="disabled"]:hover{
+	background: #e8e8e8;
+	border: 1px solid #e8e8e8;
+	color: #666 !important;
+	box-shadow:0;
+	border-radius: 0;
+}
+div#mirai_roomSelectionContainer, #cartSummary, .mirai_button{
+	border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+}
+#availableRoomList tr.roomtype th, #availableRoomList td.tdRatesTable, #availableRoomList tr.roomtypelastvisiblerow .col5, #availableRoomList tr.roomtypelastvisiblerow .col2{
+	border-top-right-radius:2px !important;
+	border-bottom-left-radius: 2px !important;
+	border-bottom-right-radius: 2px !important;
+}
+.mirai_button, .mirai_button:visited{
+color:#fffffe !important;
+}
+
+.engine_mashup > div form .button-group a {
+	color: #000;
+	font-size: 12px;
+}
+.engine_mashup > div form .button-group a:hover {}
+
+.engine_mashup.square.two-columns > div form .control-group {
+	padding: 0 4%;
+	width: 92%;
+}
+
+.engine_mashup.square.two-columns > div form .control-group label.label-code {
+	font-size: inherit;
+	line-height: 26px;
+}
+
+.ui-widget-header {
+	background: none repeat scroll 0 0 #ef5353 !important;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+/* square two-columns (column-width)*/
+.engine_mashup.square.two-columns > div form .control-group label {
+	color: #000;
+	text-transform: uppercase;
+	width: 35%;
+}
+.engine_mashup.square.two-columns > div form .control-group span.legend {margin-left:35%;}
+.engine_mashup.square.two-columns > div form .control-group input[type="text"] {width:50%;}
+
+/* tabs */
+.engine_mashup .tabbable {}
+.engine_mashup .tabbable .nav-tabs {}
+.engine_mashup .tabbable .nav-tabs li a {}
+.engine_mashup .tabbable .nav-tabs li.active a {}
+.engine_mashup .tabbable .tab-content {
+	background: #dddddd; /* Old browsers */
+	background: -moz-linear-gradient(top, #dddddd 1%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#dddddd), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #dddddd 1%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #dddddd 1%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #dddddd 1%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #dddddd 1%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+.engine_mashup .tabbable .tab-content > .tab-pane {}
+/*------------------------------------------------------------------------------*/
+
+
+/*---------------------------------  POPOVER -----------------------------------*/
+.popover {}
+.popover .popover-inner {}
+.popover .popover-title {}
+/*------------------------------------------------------------------------------*/
+
+
+/*---------------------------------  TOOLTIP -----------------------------------*/
+.tooltip.right .tooltip-arrow {/*border-right-color: <color> !important;*/}
+.tooltip .tooltip-inner {/*background-color: <color>;*/}
+/*------------------------------------------------------------------------------*/
+
+.align-center {
+	text-align: center;
+}
+
+/*------------------------------  OFFERS MASHUP --------------------------------*/
+.offers-mashup {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.offers-mashup h3 { 
+	padding: 10px 0 0 15px;
+}
+.mashup-home .offers-mashup img {
+	border: 2px solid #777777;
+	border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	display: block;
+	height: 181px;
+	margin: 6px 0 25px;
+	width: 98%;
+}
+
+.offers-mashup .carousel {
+	margin-bottom: 0;
+}
+
+/*
+.offers-mashup .carousel-control.right {
+	background: url("images/sprite-resources.png") no-repeat scroll 0 -452px transparent;
+	border: inherit;
+	border-radius: inherit;
+	height: 39px;
+	opacity: 1;
+	position: absolute;
+	right: 2px;
+	text-indent: -99999px;
+	width: 39px;
+}
+.offers-mashup .carousel-control.right:hover {
+	background-position: 0 -502px;
+}
+*/
+
+.offers-mashup dl {
+	min-height: 200px;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+#main .offers-mashup dl dt {
+  background-color: transparent;
+  border-radius: 0 0 7px 7px;
+  color: #000;
+  display: block;
+  font-size: 18px;
+  height: 20px;
+  line-height: 24px;
+  margin: 0 2%;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  top: auto;
+  width: auto;
+}
+.offers-mashup dl dt:after {
+	bottom: 5px;
+	content: "...";
+	position: absolute;
+	right: 42px;
+}
+.offers-mashup dl dd span {
+  display: none;
+}
+.offers-mashup .rss-link {}
+.offers-mashup .more-info-link {
+	background: none repeat scroll 0 0 transparent;
+	border: 0 none;
+	border-radius: 0 0 0 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 0;
+}
+
+.offers-listing-wrapper .offer {
+	float: none;
+	margin: 45px 0;
+	width: auto;
+}
+
+.offers-listing-wrapper {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.offers-detail-wrapper .offer-calendar-wrapper .offer-button {
+	box-shadow: 1px 1px 4px #666;
+}
+
+.offer-calendar-wrapper .ui-widget-header {
+	color: #fff;
+}
+
+/*------------------------------------------------------------------------------*/
+
+/*----------------------------  HOME PAGE -------------------------------*/
+.home #footer {
+	display:none;
+}
+
+/*------------------------------------------------------------------------------*/
+
+/*----------------------------  OFFERS/REVIEWS PAGE -------------------------------*/
+
+#offersHs #headerOffers {display: none;}
+#offersHs .contents h2 {color: #8F1513 !important;}
+#offersHs #titleDivOffers > p > a {display: none;}
+#offersHs #headerOffers #titleDivOffers h2#hotelNameOffers {padding: 0;}
+#offersHs #headerOffers #titleDivOffers h2#hotelNameOffers span {line-height: 20px;}
+#offersHs .rowOffers .wrapperForm form select {width: 55px;}
+#offersHs ul, #offersHs p, div.hssurveys_full p, div.hssurveys_full td, div.hssurveys_full th, div.hssurveys_full li {font-size: 14px !important;}
+#offersHs .rowOffers .wrapperForm form label {display: inline-block;}
+#offersHs {padding: 0 !important;}
+
+#cuadroOfertas, #cuadroOpiniones {
+	margin-top: 20px;
+	padding: 0;
+}
+
+.cat-offers .content-page {float: none;}
+div.hssurveys_full .comments p.commentsPerson span.date {color: #333333 !important;}
+
+/*------------------------------------------------------------------------------*/
+
+/*----------------------------  OPINIONES MASHUP -------------------------------*/
+.mirai_opiniones {
+
+}
+.mirai_opiniones #xdhsReviewSummaryContent-XdHs {
+	font-family:inherit;
+	font-size:inherit;
+	color:inherit;
+}
+.mirai_opiniones #xdhsReviewSummaryContent-XdHs #hsRating {
+	font-family:inherit;
+	font-size:inherit;
+	color:inherit;
+	margin:0px;
+	padding:0px;
+	width:auto;
+}
+.mirai_opiniones #xdhsReviewSummaryContent-XdHs #hsRating #scoreTop {
+	height:auto;
+}
+.mirai_opiniones #xdhsReviewSummaryContent-XdHs #hsRating #scoreTop #score {
+	line-height: normal;
+	float:none;
+	display: inline-block;
+	font-size: 48px;
+}
+.mirai_opiniones #xdhsReviewSummaryContent-XdHs #hsRating #scoreTop #ratingBar {
+	float:none;
+	display: inline-block;
+}
+.mirai_opiniones #xdhsReviewSummaryContent-XdHs #hsRating #mirai_recommend {
+	border:0px;
+	font-family:inherit;
+	font-size:inherit;
+	color:inherit;
+}
+.mirai_opiniones #xdhsReviewSummaryContent-XdHs #hsRating #mirai_recommend h3 {
+	font-family:inherit;
+	font-size:inherit;
+	color:inherit;
+	padding:0px;
+	line-height: normal;
+}
+.mirai_opiniones #xdhsReviewSummaryContent-XdHs #hsRating #mirai_reviewSouce {
+	padding:0px;
+	line-height:normal;
+}
+.mirai_opiniones #xdhsReviewSummaryContent-XdHs #hsRating .mirai_btReview {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin: 0px auto;
+	text-decoration: none;
+	line-height: normal;
+	background-color: #666;
+	color: #fff;	
+}
+.mirai_opiniones #xdhsReviewSummaryContent-XdHs #hsRating .mirai_btReview:hover {}
+.mirai_opiniones #xdhsReviewSummaryContent-XdHs #hsRating #writeReviews {display:none;}
+.mirai_opiniones > p {} /* link hotelsearch.com
+/*------------------------------------------------------------------------------*/
+
+
+/*-------------------------------  SOCIAL MEDIA --------------------------------*/
+#social-media {}
+#social-media h3 {}
+#social-media ul {
+	text-align: right;
+}
+#social-media ul li {
+	display: inline-block;
+	text-align: left;
+}
+#social-media ul li:first-child {}
+#social-media ul li a {
+	/* Uncomment this for custom social media icons */
+	/*background-image: url('images/sprite.png');*/
+}
+/*------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------  VCARD -----------------------------------*/
+.hotelschema {
+	color: #666;
+	text-align: left;
+}
+.hotelschema h3 {}
+.hotelschema .name {}
+.hotelschema .separator {}
+.hotelschema a {
+	color: #0F5098;
+	font-style: italic;
+}
+.hotelschema a:hover {
+	text-decoration:none;
+	background:#0F5098;
+	color: #fff;
+}
+.address_phone {}
+
+/*------------------------------------------------------------------------------*/
+
+
+/*---------------------------  FULLSCREEN SLIDESHOW ----------------------------*/
+.on-page-slideshow .slideshow .contSlideshow .txtslider {
+  display: none;
+}
+
+/*------------------------------------------------------------------------------*/
+
+
+/*-----------------------------  CAROUSEL SLIDESHOW ----------------------------*/
+.on-page-slideshow .slideshow {}
+.on-page-slideshow .slideshow .contSlideshow .txtslider {}
+.on-page-slideshow .prev {}
+.on-page-slideshow .next {}
+.on-page-slideshow div[class*="pager"] {}
+.on-page-slideshow div[class*="pager"] a {}
+.on-page-slideshow div[class*="pager"] a.activeSlide {}
+/*------------------------------------------------------------------------------*/
+
+
+/*---------------------------  BACKGROUND SLIDESHOW  ---------------------------*/
+.background-slideshow {}
+.background-slideshow .slideshow {}
+.background-slideshow .slideshow .contSlideshow .txtslider {}
+.background-slideshow .prev {}
+.background-slideshow .next {}
+.background-slideshow div[class*="pager"] {}
+.background-slideshow div[class*="pager"] a {}
+.background-slideshow div[class*="pager"] a.activeSlide {}
+
+
+/*------------------------------------------------------------------------------*/
+
+
+/*-------------------------------  BOOKING PAGES -------------------------------*/
+body, table#availableRoomList tr.roomtype p, div#mirai_roomSelectionContainer, select, input, div#mirai_roomSelectionContainer div.roomtypedetail span, .roomdetailBottomTable span, td#mirai_roomSelection tr.roomtype dt, td#mirai_roomSelection tr.roomtype dd, table#mirai_rootTable #summaryHeader, table#mirai_rootTable .roomNumOption, #mirai_rootTable .pax{
+	color: #666 !important;
+	font-family:Oxygen, Karla, Quattrocento Sans, Cantarell;
+}
+.bookingstep1 {
+	background: url("/files/booking.jpg") no-repeat fixed center top;
+	background-size: 100% 100%;
+}
+
+.bookingstep1 #motor_reservas #mirai_bookentrance {
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255,255,255,0.8);
+	color: #000;
+	padding: 12px 0;
+	margin: 50px 0 0;
+	text-transform: uppercase;
+}
+.bookingstep1 #motor_reservas #mirai_bookentrance #mirai_be7 input {
+	font-size: 14px;
+}
+.bookingstep1 #motor_reservas #mirai_bookentrance #mirai_be7 input:hover {
+	text-decoration: none;
+}
+
+.bookingstep1 #mirai_be0 input, .bookingstep1 #mirai_be0 span, .bookingstep1 #mirai_be0 select {font-family: Oxygen;}
+
+.bookingstep1 ul#menu_web {
+	display: block;
+	float: right;
+	font-family: Oxygen;
+	margin-top: 38px;
+	text-align: left;
+	width: 56%;
+} 
+.bookingstep1 .booking-button {display: none !important;}
+.bookingstep1 ul#menu_web li a {text-decoration: none !important;}
+.bookingstep1 #header {
+	height: 130px;
+}
+.bookingstep1 #header .content {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.bookingstep1 ul#menu_web li a {
+	padding: 15px 8px;
+}
+
+.bookingstep1 #logo {
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255,255,255,0.8)!important;
+	left: 0;
+	padding: 10px 5px;
+	position: absolute;
+	text-align: center;
+	top: 15px;
+}
+.bookingstep1 div#mirai_roomSelectionContainer {
+background-color: rgba(245,243,233,.8)!important;
+}
+
+#mirai_bookentrance input#mirai_be2, #mirai_bookentrance select#mirai_be4, #mirai_bookentrance input#mirai_be6 {
+	padding: 2px 8px;
+}
+
+#mirai_be0, #mirai_be2, #mirai_be0 input, #mirai_be0 select {
+	font-size: 15px;
+}
+
+.bookingstep1 #motor_reservas #mirai_roomSelectionContainer {
+	background: none repeat scroll 0 0 transparent !important;
+	box-shadow: 0 0;
+}
+div.mirai_button.selectRoom, div.mirai_button.selectRoom:visited, input.mirai_button.selectExtra, input.mirai_button.selectExtra:visited {
+	background-color: #014085 !important;
+}
+/*------------------------------------------------------------------------------*/
+
+
+/*-------------------------------- PHOTOS PAGES --------------------------------*/
+.ngg-galleryoverview {/*margin:<margin>*/}
+.ngg-galleryoverview .ngg-gallery-thumbnail {/*margin-right:<margin>*/}
+
+.ngg-galleryoverview .ngg-gallery-thumbnail img {
+	background: none repeat scroll 0 0 transparent;
+	border: 0 none;
+	margin: 4px 5px 7px 5px;
+	width: 150px;
+}
+.ngg-galleryoverview .ngg-gallery-thumbnail a {
+	border: 1px solid #A9A9A9;
+	box-shadow: 0 0 7px #777777;
+	-webkit-box-shadow: 0 0 7px #777777;
+	display: block;
+	margin: 10px 0 10px 17px;
+	padding-bottom: 5px;
+}
+.ngg-galleryoverview .ngg-gallery-thumbnail a:hover {
+	box-shadow: 0 0 0;
+	-webkit-box-shadow: 0 0 0;
+	text-decoration: none;
+}
+.ngg-galleryoverview .ngg-gallery-thumbnail a:after {
+	content: attr(title);
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 150px;
+}
+
+
+
+/*------------------------------------------------------------------------------*/
+
+
+/*---------------------------------- SHADOWBOX ---------------------------------*/
+#sb-container {}
+#sb-container #sb-overlay {background-color:#000 !important;}
+#sb-container #sb-wrapper #sb-wrapper-inner {border: 1px solid #303030 !important;}
+#sb-container #sb-info {}
+#sb-container #sb-info #sb-counter {}
+#sb-container #sb-info #sb-nav {}
+#sb-container #sb-info #sb-nav #sb-nav-close {}
+#sb-container #sb-info #sb-nav #sb-nav-next {}
+#sb-container #sb-info #sb-nav #sb-nav-previous {}
+/*------------------------------------------------------------------------------*/
+
+
+/*------------------------------------ BLOG ------------------------------------*/
+.post {}
+.post h2 {}
+.post h2 a {}
+.post .meta {}
+.post .meta .autor_post {}
+.post .meta .fecha_post {}
+.post .meta .comentarios_post {}
+.post .entry {}
+.post .entry p {}
+.post .entry .post-edit-link {}
+.post .entry .categorias {}
+.post .entry .categorias a {}
+.paginaAnterior {}
+.paginaSiguiente {}
+.post #respond {}
+.post #respond h3 {}
+.post #respond form {}
+.post #respond form .logged-in-as {}
+.post #respond form .comment-form-comment {}
+.post #respond form .comment-form-comment label {}
+.post #respond form .comment-form-comment textarea {}
+.post #respond form .comment-form-comment .form-submit {}
+.post #respond form .comment-form-comment .form-submit input {}
+.post #prev_post a {}
+.post #next_post a {}
+/*------------------------------------------------------------------------------*/
+
+
+/*--------------------------------- SITE STYLES --------------------------------*/
+/*.icon-lock {background-image: url("http://lamalmaison-2013.webs3.mirai.es/wp-content/themes/mirai/img/glyphicons-halflings-white.png");}*/
+.icon-star {margin: 1px 3px 0 0;}
+
+.text-slider-home {
+	position: absolute;
+	right: 10px;
+	top: -150px;
+	width: 60%;
+}
+.text-slider-home p {
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #FFFFFF;
+	float: left;
+	font-size: 25px;
+	font-weight: 300;
+	padding: 13px 20px;
+	text-align: center;
+}
+.text-slider-home p.second-line {
+	float: right;
+	font-size: 35px;
+	line-height: 1;
+	padding: 17px 20px;
+	text-transform: none;
+	text-align: right;
+}
+
+.content-home, .offers-listing-wrapper, .offers-detail-wrapper, .rooms-listing-wrapper   {
+	margin-top: 80px;
+}
+
+.offers-detail-wrapper {
+	margin-bottom: 30px;
+}
+
+.content-home, .content-page, .rooms-listing-wrapper {
+	margin-bottom: 40px;
+}
+
+.text-wrap, .offers-mashup, .rooms-listing-wrapper {
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 0px;
+}
+
+.content-home .text-home p {
+	font-size:16px;
+}
+.content-home .text-home h2, .content-page .text-page h2 {
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 20px;
+	margin: 10px 0;
+}
+.content-home .text-home h3, .content-page .text-page h3 {
+	color: #862C2B;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.content-home .text-home p {}
+
+.content-home .location-home {
+	margin: 0 4%;
+}
+.content-home .location-home h2, .offers-mashup h3 {
+	font-size: 23px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.content-home .location-home img {
+	border: 2px solid #777777;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	box-shadow: 0 0 5px;
+	-webkit-box-shadow: 0 0 5px;
+	display: block;
+	margin: 6px auto 10px;
+}
+.content-home .location-home .link-location {
+	display: block;
+	text-align: right;
+	width: 100%;
+}
+
+.content-home .location-home .link-location a:hover, .offers-mashup .more-info-link:hover {
+	text-decoration: underline;
+}
+
+.content-home .location-home .text-wrap, .content-home .offers-mashup {
+	min-height: 270px;
+}
+
+.content-page {
+	margin-top: -150px;
+}
+.content-page .text-page {}
+.content-page .text-page .text-wrap .list-ball li {
+	list-style-type: disc;
+	margin-left: 22px;
+}
+.content-page .text-page h4 {
+	color: #A64A45;
+	text-decoration: underline;
+}
+.content-page .map-page {
+	margin-left: 8%;
+}
+
+.cat-rooms .slider-wrap {
+	float: left;
+	margin-top: 25px;
+	width: 65%;
+}
+.cat-rooms .on-page-slideshow {
+	height: 200px !important;
+	padding: 15px 11%;
+	width: 78% !important;
+}
+.cat-rooms .on-page-slideshow img {
+	height: 200px !important;
+	width: 100% !important;
+}
+
+.cat-rooms .slider-rooms {
+	border: 5px solid #CAC7C2;
+	width: 95% !important;
+}
+
+.cat-rooms .on-page-slideshow .prev {left: 1px;}
+.cat-rooms .on-page-slideshow .next {right: 1px;}
+
+.on-page-slideshow .prev, .on-page-slideshow .next {
+	background: url("/files/arrow.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 40px;
+	opacity:.7;
+	text-indent: -999999px;
+	width: 40px;
+	
+}
+.on-page-slideshow .prev {background-position: 0 0;}
+
+.on-page-slideshow .next {background-position: right 0px;}
+.on-page-slideshow .prev:hover, .on-page-slideshow .next:hover {
+	opacity:1;
+}
+
+.cat-rooms .text-rooms {
+	float: right;
+	margin-top: 15px !important;
+	padding: 3% 3% 9%;
+	width: 29%;
+}
+
+.text-rooms .engine_button {
+	background: #F5EBEA;
+	border: 0 none;
+	border-radius: 0 0 0 0;
+	bottom: 15px;
+	padding: 6px 14px;
+	position: absolute;
+	right: 0;
+	text-align: left;
+	text-transform: uppercase;
+	width: 110px;
+}
+
+.text-rooms .engine_button:hover {
+	/*background-position: 27px -365px;*/
+}
+
+.logo-tripadvisor {
+  float: right;
+  width: auto;
+}
+#TA_cdswritereviewlg320 {
+	float: right;
+	position: relative;
+}
+
+.cat-offers .content-page, .cat-reviews .content-page {
+	margin-top: -60px;
+}
+
+.logos-footer {width: 180px;}
+.logos-footer img {margin: 0 4px 0 0; width: 50px;}
+.logos-footer .logo-tripadvisor {}
+#CDSWIDCOE {float: right; margin: 0 0 0 10px !important;}
+
+
+.icons-sprite {overflow: hidden;}
+.icons-sprite li {
+	background: url("/files/sprite-icons.png") no-repeat scroll 0 0 transparent;
+	display: inline-block;
+	margin: 10px 0;
+	padding: 3px 0 3px 40px;
+	width: 40%;
+}
+.icons-sprite .aire {background-position: 0 0;} 
+.icons-sprite .armario {background-position: 0 -75px;} 
+.icons-sprite .ascensor {background-position: 0 -151px;} 
+.icons-sprite .bienvenida {background-position: 0 -227px;} 
+.icons-sprite .cajafuerte {background-position: 0 -303px;} 
+.icons-sprite .canal {background-position: 0 -377px;} 
+.icons-sprite .conferencia {background-position: 0 -452px;} 
+.icons-sprite .equipaje {background-position: 0 -528px;} 
+.icons-sprite .escritorio {background-position: 0 -603px;} 
+.icons-sprite .lavanderia {background-position: 0 -683px;} 
+.icons-sprite .mascotas {background-position: 0 -759px;} 
+.icons-sprite .minibar {background-position: 0 -834px;} 
+.icons-sprite .pc {background-position: 0 -908px;} 
+.icons-sprite .plancha {background-position: 0 -983px;} 
+.icons-sprite .recepcion {background-position: 0 -1059px;} 
+.icons-sprite .secador {background-position: 0 -1134px;} 
+.icons-sprite .supletoria {background-position: 0 -1210px;} 
+.icons-sprite .tv {background-position: 0 -1290px;} 
+.icons-sprite .visa {background-position: 0 -1359px;} 
+.icons-sprite .wifi {background-position: 0 -1427px;} 
+
+/* Fix for offer detail page */
+.blog-home #header{height: 377px;}
+.cat-offers .rss-text a {margin: 0 5px -3px 2px;}
+
+
+
+
+/*------------------------------------------------------------------------------*/
+/*----------------------------- TABS COMPONENT -----------------------------*/
+.tabbable {
+	margin-bottom: 20px;
+}
+.photos-page .nav-tabs, .photos-page .nav-pills {
+	margin: 0 !important;
+}
+.photos-page .nav-tabs li, .photos-page .nav-pills li {
+	margin: 0 6px;
+}
+.nav-tabs{
+	border:none;
+}
+.nav-tabs, .nav-pills {
+	margin: 13px 0 !important;
+}
+.nav-tabs > li, .nav-pills > li {
+	margin: 6px 0;
+}
+.nav-tabs > li.active > a, .nav-pills > li.active > a, .nav-tabs > li.active > a:hover, .nav-pills > li.active > a:hover {
+	background:#536270;
+	color:#eee;
+	cursor:default;
+}
+.nav-tabs > li.active > a:hover, .nav-pills > li.active > a:hover {}
+.nav-tabs > li > a, .nav-pills > li > a {
+	color: #eee;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 2px;   
+	background: #ed5153;
+
+
+}
+.nav-tabs > li > a:hover, .nav-pills > li > a:hover {	   
+	background: #cd4849;
+	border-color:transparent;
+	color:#fff;
+}
+.tab-content {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-radius: 2px;
+	box-shadow: 0 0 7px #999999;
+	-webkit-border-radius: 2px;
+	-webkit-box-shadow: 0 0 7px #999999;
+	min-height: 300px;
+	position: relative;
+}
+.tab-content > .tab-pane {}
+
+.photos-page .tab-content {
+	padding: 10px;
+}
+
+.logo-quality-suites_header {
+	left: 88px;
+	position: absolute;
+	top: 5px;
+	width: 75px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+#sidebar-preheader .ngg-singlepic{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	padding:0!important;
+	z-index:-1!important;
+}
+
+
+.services li{
+	background:url('/files/services02.png') no-repeat 0 0 transparent;
+	display:block;
+	float:left;
+	height:83px;
+	line-height:1;
+	margin-bottom:15px;
+	text-align:center;
+	width:125px;
+}
+.services li.phone {
+	background-position:34px 17px;
+}
+.services li.cafe{
+	background-position:34px -70px;
+}
+.services li.bar{
+	background-position:34px -146px;
+}
+.services li.internet{
+	background-position:34px -211px;
+}
+.services li.lounge{
+	background-position:34px -271px;
+}
+.services li.reception{
+	background-position:34px -332px;
+}
+.services li.minibar{
+	background-position:34px -390px;
+}
+.services li.creditcards{
+	background-position:34px -465px;
+}
+.services li.lifts{
+	background-position:38px -538px;
+}
+.services li.safe{
+	background-position:34px -618px;
+}
+
+.photo-city .span4, .mapa-hotel {
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: justify;
+}
+
+.photo-city p {
+  padding: 10px 0 0;
+}
+
+.text-wrap .intro {
+	padding: 0 30px;
+	text-align: justify !important;
+}
+
+/*
+.offers-listing-wrapper h2 {
+	color: #000;
+	font-family: Oxygen;
+	font-size: 1.8em;
+	font-weight: bold;
+	line-height: 1em;
+	padding-bottom: 10px;
+	text-align: center;
+	text-shadow: none;
+}
+*/
+
+.galery-room {
+	box-sizing: border-box;
+	height:430px;
+	padding: 20px;
+}
+
+.ico-grupo-fuertes a{font-size:12px;}
+
+/*-------------------------------- LISTING ROOMS --------------------------------*/
+.rooms-listing-wrapper {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	margin: 60px auto 20px;
+	padding: 0 20px 20px;
+	z-index: 1;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+.rooms-listing-wrapper h2 {text-align: center;}
+.rooms-listing-wrapper > div.container p {text-align: center;}
+.rooms-listing-wrapper .common-services {
+  margin-top: 20px;
+  padding: 0 0 0 150px;
+}
+.rooms-listing-wrapper .common-services li {
+  width: 33%;
+  float: left;
+  list-style: disc;
+}
+.rooms-listing-wrapper .rooms-listing {
+  margin-top: 40px;
+}
+.rooms-listing-wrapper .rooms-listing .room-item {
+  margin-bottom: 60px;
+}
+.rooms-listing-wrapper .rooms-listing .room-item.odd {}
+.rooms-listing-wrapper .rooms-listing .room-item .room-detail {
+  width: 50%;
+  float: left;
+  padding-right: 10px;
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-detail h3 {
+  width: 99%;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-detail ul {
+  border: 1px solid #A4A39E;
+  background-color: #E9E8E6;
+  width: 99%;
+  padding: 15px 10px;
+  margin-bottom: 5px;  
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-detail ul li {
+  display: inline-block;
+  vertical-align: middle;  
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-detail ul li.three {width:32%;}
+.rooms-listing-wrapper .rooms-listing .room-item .room-detail ul li.two {width:49%;}
+.rooms-listing-wrapper .rooms-listing .room-item .room-detail ul li.one {width:99%;}
+.rooms-listing-wrapper .rooms-listing .room-item .room-detail ul li span {
+  vertical-align: middle;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-detail ul li span.occupancies-ico,
+.rooms-listing-wrapper .rooms-listing .room-item .room-detail ul li span.size-ico,
+.rooms-listing-wrapper .rooms-listing .room-item .room-detail ul li span.distibution-ico,
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-offer .offer-ico {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-color: transparent;
+  background-image: url("/wp-content/themes/mirai/images/rooms-listing.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;  
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-detail ul li span.occupancies-ico {
+  background-position: 0 0;  
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-detail ul li span.size-ico {
+  background-position: 0 -20px;  
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-detail ul li span.distibution-ico {
+  background-position: 0 -40px;  
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-image-link {
+  box-sizing: border-box;
+  float: right;
+  padding: 0 35px 0 0;
+  width: 50%;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-image-link img,
+.rooms-listing-wrapper .rooms-listing .room-item .room-image-link span.no-photo {
+  width: 99%;
+  box-shadow: 0 0;
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-image-link span.no-photo {
+  height: 350px;
+  display: inline-block; 
+  background: #E9E8E6 url("/wp-content/themes/mirai/images/no-photo.png") no-repeat scroll 50% 50%;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content {
+  width: 50%;
+  float: left;
+  padding-right: 10px;
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-description {
+  width: 99%;
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content ul.exclusive-services {
+  margin: 15px 0 20px 30px;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content ul.exclusive-services li {
+  list-style-type: disc;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-offer {
+  vertical-align: middle;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-offer span {
+  vertical-align: middle;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-offer .offer-ico {
+  background-position: 0 -60px;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .more-info {
+  text-align: center;
+  font-family: inherit;	
+  margin: 0;
+  border-radius: 5px;
+  padding: 6px 15px 5px;
+  background: rgb(84,89,94); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(84,89,94,1) 0%, rgba(40,40,40,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(84,89,94,1)), color-stop(100%,rgba(40,40,40,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(84,89,94,1) 0%,rgba(40,40,40,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(84,89,94,1) 0%,rgba(40,40,40,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(84,89,94,1) 0%,rgba(40,40,40,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(84,89,94,1) 0%,rgba(40,40,40,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54595e', endColorstr='#282828',GradientType=0 ); /* IE6-9 */
+  color:#fff;
+  box-shadow: 0 1px 2px #888; 
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .more-info.hover {
+
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-price {
+  border-top: 1px solid #A4A39E;
+  width: 99%;
+  margin-top: 20px;
+  padding-top: 10px;
+  -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-price .box-from {
+  display:inline-block;
+  width:59%;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-price .box-from .box-price {
+  margin-bottom:0px !important;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-price .box-from .box-price span {
+  font-size: 1.5em;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-price .box-from .price-description {
+  margin-bottom:0px !important;
+  display:inline-block;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-price .box-from .box-price,
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-price .box-from .price-description {
+  color: #6B9926;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-price .box-from .select-dates {}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-price .box-button {
+  display:inline-block;
+  width:40%;
+  text-align:right;
+  vertical-align:top;
+  margin-top: 8px;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-price .box-button .goto-booking {
+  text-align: center;
+  font-family: inherit;	
+  margin: 0;
+  border-radius: 5px;
+  padding: 6px 15px 5px;
+  background: #95b763; /* Old browsers */
+  background: -moz-linear-gradient(top,  #95b763 0%, #6fb703 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#95b763), color-stop(100%,#6fb703)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #95b763 0%,#6fb703 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #95b763 0%,#6fb703 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #95b763 0%,#6fb703 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #95b763 0%,#6fb703 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#95b763', endColorstr='#6fb703',GradientType=0 ); /* IE6-9 */
+  color:#fff;
+  box-shadow: 0 1px 2px #888;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-price .last-booking {
+  float:left;
+  font-style:italic;
+  color:#A4ABBF;
+}
+.rooms-listing-wrapper .rooms-listing .room-item .room-content .room-price .available-rooms {
+  float:right;
+  color:#B6202B;
+}
+/* Default-left */
+.rooms-listing-wrapper.default-left .rooms-listing .room-item .room-detail,
+.rooms-listing-wrapper.default-left .rooms-listing .room-item .room-content {
+  float:right;
+  padding-right:0;
+  padding-left: 10px;
+}
+.rooms-listing-wrapper.default-left .rooms-listing .room-item .room-image-link {
+  float:left;
+}
+
+/* One Column */
+.rooms-listing-wrapper.one-column .rooms-listing .room-item .room-detail,
+.rooms-listing-wrapper.one-column .rooms-listing .room-item .room-image-link,
+.rooms-listing-wrapper.one-column .rooms-listing .room-item .room-content {
+  float: none;
+  width: 100%;
+  padding: 0;
+}
+.rooms-listing-wrapper.one-column .rooms-listing .room-item .room-content .room-description {
+  margin-top: 15px !important;  
+}
+.rooms-listing-wrapper.one-column .rooms-listing .room-item .room-content .room-price {
+  border-top: 0px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+/* Alternate */
+.rooms-listing-wrapper.alternate .rooms-listing .room-item.odd .room-detail,
+.rooms-listing-wrapper.alternate .rooms-listing .room-item.odd .room-content {
+  float: right;
+  padding: 0 35px 0 15px;
+}
+.rooms-listing-wrapper.alternate .rooms-listing .room-item.odd .room-image-link {
+  float: left;
+  padding: 0;
+}
+
+/* customize ipad portrait */
+@media (min-device-width: 768px) and (max-device-width: 979px) and (orientation : portrait) {
+  .rooms-listing-wrapper .common-services {
+	padding: 0 0 0 50px;   
+  }
+  /* One Column */
+  .rooms-listing-wrapper .container {
+	padding: 0 20px;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+  }
+  .rooms-listing-wrapper .rooms-listing .room-item .room-detail,
+  .rooms-listing-wrapper .rooms-listing .room-item .room-image-link,
+  .rooms-listing-wrapper .rooms-listing .room-item .room-content {
+	float: none;
+	width: 100%;
+	padding: 0 !important;
+  }
+  .rooms-listing-wrapper .rooms-listing .room-item .room-content .room-price {
+	border-top: none;
+	margin-top: 0;
+	padding-top: 0;
+  }
+  .rooms-listing-wrapper .rooms-listing .room-item .room-content .room-description {
+	margin-top: 15px !important;
+  }
+
+}
+
+/*-------------------------------- MEDIA QUERYS --------------------------------*/
+/* Large desktop */
+@media (min-width: 1200px) {
+	.logo-quality-suites_header {
+		left: 115px;
+		top: 5px;
+		width: 82px;
+	}
+	.galery-room {
+		height:505px;
+	}
+	.mashup-home .offers-mashup img {height: auto;margin: 6px 0 22px;}
+	
+	.content-home .location-home img {width: 100%;}
+	.engine_mashup.square.two-columns > div form .control-group input[type="text"] {width: 57%;}
+	.content-home .location-home .text-wrap, .content-home .offers-mashup {min-height: 280px;}
+	.cat-rooms .on-page-slideshow .prev {left: 14px;}
+	.cat-rooms .on-page-slideshow .next {right: 3px;}
+	.cat-rooms .slider-rooms {width: 100% !important;}
+	.cat-rooms .on-page-slideshow, .cat-rooms .on-page-slideshow img {height: 250px !important;}
+	.tab-content {min-height: 330px;}
+	.ngg-galleryoverview .ngg-gallery-thumbnail img {width: 200px;}
+	.banner-mamie{
+		position:absolute;
+		bottom:-90px!important;
+		right:1px;
+	}
+	
+	.contSlideshow, .contSlideshow img {
+		height: 400px !important;
+	}
+
+}/* ipad portrait - landscape */
+@media (min-device-width: 768px) and (max-device-width: 979px){
+
+	.photo-city img {
+		margin-left: 0;
+	}
+
+	.bookingstep1 .engine_mashup.inline > div form .button-group input[type="submit"] {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+	}
+
+	#mirai_bookentrance input#mirai_be6 {
+	  padding: 2px 8px;
+	  width: 50px;
+	}
+
+}/* customize ipad portrait */
+@media (min-device-width: 768px) and (max-device-width: 979px) and (orientation : portrait) {
+	#logo img {
+		margin-left:26px;
+	}
+	.text-slider-home {width: 60%;}
+	.mrg1 {
+		margin-top:70px !important;
+	}
+	ul#menu_web {
+		float: right;
+		margin: 50px 0 0;
+		position: absolute;
+		right: 0px;
+		width: 65%;
+	}
+	ul#menu_web li a {
+		font-size:13px;
+		padding: 15px 0 15px 25px;
+	}
+	.on-page-slideshow .prev, .on-page-slideshow .next {
+		top:30%;
+	}
+	.galery-room {
+		height:332px;
+	}
+	.engine_mashup, .offers-mashup { width: 240px;}
+		
+	.widget_qtranslate {margin-top: 5px;}
+	.content-home {margin-top: 20px;}
+	.content-home .text-home {margin-bottom: 20px;}
+	.content-home .location-home {margin: 0 2% 0 0; width: 48%;}
+	.content-home .mashup-home {margin: 0 0 0 2%; width: 48%;}
+	.content-home .location-home img {width: 260px;}
+	.logo-tripadvisor {display: none;}
+	.content-page {margin: 20px 0; width: 100%;}
+	.cat-offers .content-page, .cat-reviews .content-page {margin: 20px 0 0;}
+	.ngg-galleryoverview .ngg-gallery-thumbnail a {margin: 10px 0 10px 40px;}
+	.bookingstep1 #mirai_roomSelectionContainer {width: 98%;}
+	.bookingstep1 #header .content {width: 100%;}
+	.bookingstep1 header #logo {position: relative;}
+	.bookingstep1 ul#menu_web {margin: 0 !important;}
+	.bookingstep1 #motor_reservas #mirai_bookentrance {margin-top: 60px;}
+	.logo-quality-suites_header {display: none;}
+
+.offers-mashup {
+  margin-top: 0;
+  text-align: center;
+  margin-right: 119px;
+}
+	.bookingstep1 	#logo img {
+		float:left;
+	}
+	.bookingstep1 ul#menu_web {
+		width:65%;
+	}
+}/* customize ipad landscape */
+@media (min-device-width: 768px) and (max-device-width: 979px) and (orientation : landscape) {}
+
+/* iphone portrait & landscape - galaxy portrait & lanscape */
+@media (max-device-width: 767px) {
+	#header {
+		/*todo: no consigo fixearlo para todos los smarthphones */
+		/*position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		margin-bottom: 0;*/
+	}
+	/* excepción con el menu que no está en el header, descomentar si el menu está en el section#main */
+	/*.home section#main {display:block !important;}
+	.home section#main .content > * {display:none;}
+	.home section#main .content > #menu_web {display:block;}*/
+	.home #footer {
+		display:block;
+	}
+	.home #header .content {
+		/*background: url("/files/photogallery-hotel/la-malmaison-23.jpg") repeat-x;
+		background-size: 100% 100%;*/
+	}
+	.logo-quality-suites_header {
+		display:none;
+	}
+	.home ul#menu_web {
+		display: block !important;
+		margin: 127px 0;
+		text-align: center;
+	}
+	.home #logo {
+		left: auto !important;
+		margin: 0 auto !important;
+		position: relative !important;
+		top: 0 !important;
+	}
+	.home ul#menu_web li a {
+		color: #fff;
+		padding: 15px 9px;
+	}
+	#header .content {padding-top: 0;}
+	#main:after {content: "";}
+	
+	html .home #menu_web li {padding: 0 !important;}
+	
+	.home #menu_web li.booking-button {
+		display: inline-block !important;
+		margin: 0% !important;
+	}
+	.home #menu_web li, ul#menu_web > li.current-menu-item, ul#menu_web > li:hover {
+		background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9);
+		border-radius: 0 !important;
+		color: #fff;
+		margin: 2% 1% !important;
+		padding: 0 !important;
+		text-align: center;
+		width: 47%;
+	}
+	
+	ul#menu_web > li.current-page-ancestor, ul#menu_web > li.current-menu-item, ul#menu_web > li.current-menu-parent, ul#menu_web > li:hover, ul#menu_web > li a:hover {
+		border-radius: 0 !important;
+		background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+		box-shadow: 0 0 0 !important;
+	}
+	.home #footer .widget_qtranslate {
+		float: none;
+	} 
+	.home ul#menu_web > li.current-menu-item:after, .home ul#menu_web > li:hover:after {
+		border-color: transparent;
+	}
+	.home #menu-item-23 {display: inherit !important; float: left;}
+	.home #logo {
+		background-color: rgb(255, 255, 255);
+		background: rgba(255, 255, 255, 0.8);
+	}
+	/* PAGES - NOT HOME */
+	.not-home #logo {background: rgba(255, 255, 255, 0.8); position: relative;}
+	.not-home #logo a {color: #fff;}
+	.not-home .content-page {margin-top: 0;}
+	.not-home .text-wrap, .offers-mashup {padding: 0 10px 10px;}
+	.not-home #menu_phone {background: #000; padding: 5px 0;}
+	.cat-rooms .nav-tabs {width: 100%;}
+	.cat-rooms .nav-tabs li {margin: 0;}
+	.cat-rooms .tab-content {display: none;}
+	.cat-rooms .nav-tabs li.active a, .cat-rooms .nav-tabs li a:hover, .cat-rooms .nav-tabs li:hover a {background: #7D2628 !important; color: #FFFFFF !important;}
+	.cat-rooms .tabbable {margin-bottom: 0;}
+	.cat-rooms .icons-sprite li {width: 85%;}
+	
+	.ngg-galleryoverview .ngg-gallery-thumbnail a:after {display: none;}
+	.ngg-galleryoverview .ngg-gallery-thumbnail img {padding: 0; margin: 5px; width: 114px;}
+	.ngg-galleryoverview .ngg-gallery-thumbnail a {margin: 10px 0 10px 5px; padding: 0;}
+	
+	.home #footer .content address.address_phone li {
+		display: inline-block;
+		margin: 0 16px;
+	}
+	
+	#header .visible-phone {
+		color: #000 !important;
+		font-size: 20px !important;
+	}
+	
+	.home #footer .content address.address_phone li.address_street_phone a {
+		background-position: -89px -132px;
+	}
+	
+	.home #footer .content address.address_phone li.address_tel_phone a {
+		background-position: -89px -54px;
+	}
+	
+	.home #footer .content address.address_phone li.address_mail_phone a {
+		background-position: -89px -158px;
+	}
+
+
+
+}
+/*------------------------------------------------------------------------------*/
